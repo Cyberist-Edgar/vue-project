@@ -100,7 +100,7 @@ export default {
       options.series[1].data = this.data.map(x => x.Seat_s);
       echart.setOption(options);
       echart.on("click", params => {
-        window.location.href = "/" + this.data[params.dataIndex].Id;
+        window.location.href = "/origin/" + this.data[params.dataIndex].Id;
       });
       window.addEventListener("resize", function() {
         echart.resize();

@@ -9,9 +9,19 @@ const routes = [
     name: "index",
     component: () => import("../components/Bar")
   },
+  
   {
-    path: "/:id",
+    path: "/origin/:id",
     component: () => import("../components/Detail")
+  },
+  {
+    path: "/antv",
+    name: "antv",
+    component: () => import("../components/AntvBar")
+  },
+  {
+    path: "/antv/:id",
+    component: () => import("../components/AntvDetail")
   }
 ];
 

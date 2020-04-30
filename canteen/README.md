@@ -8,6 +8,8 @@ npm run serve
 ```
 
 #### 效果图
-
+- ##### 使用 Echarts
 <img src="./img/demo.gif" width="600px">
 
+- ##### 使用 Antv
+<img src="./img/demo2.gif" width="600px">
